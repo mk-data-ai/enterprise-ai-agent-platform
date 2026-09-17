@@ -6,7 +6,7 @@ def test_code_agent_creation():
     agent = CodeAgent()
 
     assert agent.name == "code-agent"
-    assert "software engineering" in agent.description.lower()
+    assert "code generation" in agent.description.lower()
 
 
 def test_orchestrator_registers_agent():
